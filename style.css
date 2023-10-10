@@ -1,0 +1,1267 @@
+body {
+    margin: 0;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 1920px;
+    padding: 0 141px;
+    box-sizing: border-box;
+
+}
+
+.container-upper-header {
+
+    padding: 0 138px 0 135px;
+    box-sizing: border-box;
+    width: 1920px;
+}
+
+
+* a {
+    text-decoration: none;
+
+}
+
+.phone-text-logo-mob,
+.delivery-text-mob,
+.logo-footer-mob,
+.signs-footer-mob,
+.lower-footer-mob,
+.burger-menu,
+.logo-mob-ver,
+.search-mob-ver,
+.cart-mob-ver,
+.burger-mob-ver,
+.burger-menu-mob,
+.search-mob-version,
+.quantity-mob-sp span {
+    display: none;
+}
+
+
+.car-img-mob {
+    display: none;
+}
+
+.upper-header {
+    height: 50px;
+    background-color: #F3F6F9;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+
+.nav a {
+    color: #212121;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#upper-menu {
+    margin-right: 60px;
+}
+
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.lang a:first-child {
+    margin-right: 23px;
+    color: #5B819A;
+    font-weight: 700;
+}
+
+.lang a:last-child {
+    color: #DBDCDE;
+    font-weight: 500;
+}
+
+.lang {
+    margin-right: 98px;
+    margin-left: 395px;
+    display: flex;
+}
+
+
+.ellipse-img {
+    position: relative;
+    left: 40px;
+    bottom: 8px;
+}
+
+.heart-num {
+    font-size: 10px;
+    position: relative;
+    right: 5px;
+    bottom: 8px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.heart-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2C2C35;
+    font-weight: 600;
+}
+
+.cart-ellipse {
+    position: relative;
+    left: 40px;
+    bottom: 4px;
+}
+
+.cart-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2C2C35;
+    font-weight: 600;
+}
+
+.cart-img {
+    margin-right: 7px;
+}
+
+.cart-wrap {
+    margin-left: 121px;
+}
+
+.cart-num {
+    font-size: 10px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.logo {
+    margin-right: 191px;
+}
+
+.lower-header {
+    display: flex;
+
+    align-items: center;
+    height: 105px;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 204px;
+}
+
+.num-img {
+    margin-right: 14px;
+}
+
+.sign-img {
+    margin-right: 21px;
+}
+
+.input-field input {
+    width: 800px;
+    margin-left: 162px;
+    height: 50px;
+    border: 2px solid #2C2C35;
+    border-radius: 60px;
+    padding-left: 35px;
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.search-btn {
+    height: 51px;
+    width: 51px;
+    position: relative;
+    left: 950px;
+    border-radius: 50%;
+    border: none;
+    bottom: -2px;
+    background-color: #F3F6F9;
+    border-color: #2C2C35;
+    cursor: pointer;
+    padding: 0;
+}
+
+.arrow-img {
+    margin-bottom: 4px;
+}
+
+.menu {
+    margin-bottom: 28px;
+}
+
+.mob-size-a {
+    font-weight: 500;
+    color: #212121;
+    font-size: 12px;
+}
+
+.menu a:last-child {
+    font-weight: 400;
+    color: #5B819A;
+}
+
+.heading {
+    margin-top: 72px;
+}
+
+.description {
+    font-weight: 700;
+    margin: 0;
+    font-size: 28px;
+    color: #2C2C35;
+}
+
+.container-phone {
+    margin-top: 28px;
+}
+
+.phone-pic {
+    display: flex;
+    padding: 24px 0 0 20px;
+    width: 960px;
+}
+
+.small-pictures {
+    margin-right: 62px;
+}
+
+.phone-list {
+    overflow-y: scroll;
+    height: 460px;
+    width: 120px;
+}
+
+.phone-list::-webkit-scrollbar {
+    width: 3px;
+}
+
+.phone-list::-webkit-scrollbar-thumb {
+    background-color: #5B819A;
+    border-radius: 5px;
+}
+
+.phone-list::-webkit-scrollbar-track {
+    background-color: #DBDCDE;
+}
+
+.phone-list div {
+    margin-bottom: 17px;
+}
+
+.phone-list div:last-child {
+    margin-bottom: 0;
+}
+
+.green-button {
+    background-color: #2AAF38;
+    border: none;
+    border-radius: 40px 0 0 40px;
+    color: white;
+    font-size: 16px;
+    padding: 10px 5px 10px 5px;
+    width: 130px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.green-btn {
+    position: relative;
+    right: 65px;
+}
+
+.heart-price {
+    margin-left: 94px;
+    margin-bottom: 22px;
+}
+
+.container-phone {
+    display: flex;
+
+}
+
+.phone-price {
+    background: #F3F6F9;
+    width: 660px;
+    padding: 0 37px 0 37px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.item-code {
+    color: #5B819A;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+.item-number {
+    font-size: 17px;
+    font-weight: 700;
+    color: #2C2C35;
+    font-family: 'Raleway', sans-serif;
+}
+
+.upper {
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #DBDCDE;
+}
+
+.item-qual {
+    font-size: 14px;
+    font-weight: 500;
+    color: #5B819A;
+    font-family: 'Raleway', sans-serif;
+}
+
+.item-new {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2C2C35;
+    font-family: 'Raleway', sans-serif;
+}
+
+.numbers-price {
+    margin-top: 76px;
+    display: flex;
+    width: 265px;
+    align-items: center;
+}
+
+.quantity {
+    margin-top: 37px;
+}
+
+.good-price {
+    font-size: 30px;
+    font-weight: 700;
+    color: #2C2C35;
+    margin-left: 15px;
+    display: flex;
+    align-items: baseline;
+    font-family: 'Raleway', sans-serif;
+}
+
+.good-price-hrn {
+    font-size: 18px;
+    font-weight: 400;
+    color: #2C2C35;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 3px;
+}
+
+.old-price,
+.old-price-hrn {
+    font-size: 20px;
+    font-weight: 600;
+    color: #5B819A;
+    font-family: 'Raleway', sans-serif;
+}
+
+.old-price-line {
+    margin-left: 19px;
+}
+
+.old-price::after {
+    content: " ";
+    position: absolute;
+    border: 1px solid #5B819A;
+    left: 0;
+    bottom: 9px;
+    width: 100%;
+}
+
+.old-price-line {
+    position: relative;
+}
+
+.quantity span {
+    color: #5B819A;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.quantity-btn,
+.quantity-btn-1 {
+    width: 40px;
+    height: 38px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.inp-val {
+    width: 55px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #DBDCDE;
+    padding: 0;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-btn {
+    margin-left: 15px;
+    border-radius: 3px 0 0 3px;
+}
+
+.quantity-btn-1 {
+    border-radius: 0 3px 3px 0;
+}
+
+.phone-text-logo input {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #5B819A;
+    outline: none;
+    padding: 0;
+    margin-right: 14px;
+    background-color: #fff;
+}
+
+.lower-text span {
+    color: #E96315;
+    font-weight: 700;
+    font-size: 15px;
+
+}
+
+.lower-text {
+    margin-top: 11px;
+}
+
+.upper-logo {
+    display: flex;
+    align-items: center;
+}
+
+.phone-text-logo {
+    background-color: #fff;
+    width: 232px;
+    height: 177px;
+    padding: 29px 32px 22px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-top: 68px;
+}
+
+.phone-info-wrap {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btns {
+    display: flex;
+    margin-top: 51px;
+    margin-bottom: 75px;
+}
+
+.orange-btn button {
+    background-color: #E96315;
+    border: none;
+    border-radius: 50px;
+    padding: 16.5px 40px 18.5px 40px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-right: 21px;
+    cursor: pointer;
+}
+
+
+.blue-btn button {
+    background-color: #5B819A;
+    border: none;
+    border-radius: 50px;
+    padding: 16.5px 54.5px 18.5px 54.5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.orange-btn-cart {
+    margin-right: 20px;
+}
+
+.blue-btn-calling {
+    margin-right: 20px;
+}
+
+.dotts {
+    width: 100%;
+    display: flex;
+}
+
+.dotts dt {
+    width: 70%;
+    display: flex;
+    position: relative;
+}
+
+.dotts dt span {
+    padding-right: 5px;
+    background: #fff;
+    position: relative;
+}
+
+.dotts dt:before {
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: .2em;
+    border-bottom: 1px solid #F3F6F9;
+}
+
+.dotts dd {
+    width: 30%;
+    margin-left: 0;
+    position: relative;
+}
+
+.main-info h3 {
+    color: #5B819A;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 43px;
+}
+
+.main-info dl dt span {
+    color: #5B819A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main-info dl dd {
+    color: #2C2C35;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-info {
+    margin-top: 57px;
+    width: 660px;
+}
+
+.main-info h3 {
+    margin-top: 0px;
+}
+
+.phone-information {
+    display: flex;
+}
+
+.delivery {
+    margin-left: 325px;
+    margin-top: 57px;
+}
+
+.del-pay {
+    color: #5B819A;
+    font-size: 28px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 43px;
+}
+
+.delivery-info-line {
+    display: flex;
+    border-bottom: 1px solid #5B819A;
+}
+
+.delivery-info {
+    display: flex;
+}
+
+.delivery-text {
+    margin-left: 20px;
+}
+
+.car-img img {
+    position: relative;
+    bottom: -10px;
+}
+
+.upper-footer {
+    background-color: #2C2C35;
+    display: flex;
+    height: 357px;
+    justify-content: left;
+    padding-top: 79px;
+    box-sizing: border-box;
+    padding-left: 140px;
+}
+
+.signs-footer {
+    margin-top: 33.5px;
+}
+
+.signs-footer img {
+    margin-right: 20px;
+}
+
+.signs-footer img:last-child {
+    margin-right: 0px;
+}
+
+.contacts {
+    margin-left: 195px;
+    margin-right: 227px;
+}
+
+.shedule {
+    margin-right: 245px;
+}
+
+.upper-line-contacts {
+    margin-bottom: 43px;
+    color: #5B819A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.upper-line-shedule {
+    margin-bottom: 46px;
+    color: #5B819A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.upper-line-address {
+    margin-bottom: 42px;
+    color: #5B819A;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.phone-num {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 14px;
+}
+
+.phone-num:last-child {
+    margin-bottom: 0px;
+}
+
+.first-phone-num::after {
+    content: url("./pictures/Vector.png");
+    position: relative;
+    left: 10px;
+    bottom: -2px;
+}
+
+.second-phone-num::after {
+    content: url("./pictures/Vector-green.png");
+    position: relative;
+    left: 10px;
+    bottom: -2px;
+}
+
+.third-phone-num::after {
+    content: url("./pictures/Vector-viber.png");
+    position: relative;
+    left: 10px;
+    bottom: -2px;
+}
+
+.days,
+.main-office {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.time,
+.main-office span {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.days-time {
+    margin-bottom: 14px;
+}
+
+.days-time:last-child {
+    margin-bottom: 0px;
+}
+
+.lower-footer {
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    height: 96px;
+    padding: 0 140px;
+    align-items: center;
+}
+
+.footer-wrap {
+    margin-top: 564px;
+    box-sizing: border-box;
+    width: 1920px;
+}
+
+.footer-vers {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.footer-text {
+    font-size: 8.95px;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 6.72px;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+
+
+@media (max-width: 320px) {
+
+    .upper-header,
+    .number,
+    .input-field,
+    .logo,
+    .car-img,
+    .delivery-text-norm,
+    .signs-footer,
+    .logo-footer img,
+    .lower-footer,
+    .phone-price .phone-text-logo,
+    .quantity-sp span {
+        display: none;
+    }
+
+    .logo-mob-ver,
+    .search-mob-ver,
+    .cart-mob-ver,
+    .burger-mob-ver,
+    .logo-mob-ver,
+    .logo-footer-mob,
+    .lower-footer-mob,
+    .upper,
+    .phone-info,
+    .phone-info-wrap,
+    .btns,
+    .phone-information,
+    .delivery-text-mob,
+    .signs-footer-mob,
+    .burger-menu,
+    .phone-text-logo-mob,
+    .car-img-mob,
+    .quantity-mob-sp span,
+    .burger-menu-mob,
+    .search-mob-version {
+        display: block;
+    }
+
+    .logo-footer-mob,
+    .contacts,
+    .shedule,
+    .address,
+    .lower-footer,
+    .upper-footer,
+    .lower-footer-mob,
+    .lower-header,
+    .description,
+    .burger-menu,
+    .phone-pic,
+    .phone-price,
+    .search-mob-ver,
+    .delivery,
+    .header-mob,
+    .header-search-mob {
+        padding: 0 15px;
+        box-sizing: border-box;
+        width: 320px;
+    }
+
+    .upper-header {
+        padding: 0;
+    }
+
+    .logo-mob-ver {
+        margin-right: 33px;
+    }
+
+    .cart-mob-ver {
+        margin-right: 27px;
+    }
+
+    .lower-header {
+        height: 65px;
+        background-color: #F3F6F9;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .menu {
+        padding: 16px 0 0 16px;
+        margin-bottom: 22px;
+        width: 305px;
+        box-sizing: border-box;
+    }
+
+    .mob-size-a {
+        font-weight: 400;
+        font-size: 10px;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .heading {
+        margin-top: 22px;
+    }
+
+    .small-pictures {
+        display: none;
+    }
+
+    .container-phone {
+        display: block;
+    }
+
+    .main-picture img {
+        width: 276px;
+        height: 181px;
+    }
+
+    .main-picture {
+        margin-top: 20px;
+    }
+
+    .green-button {
+        border-radius: 25px 0 0 25px;
+        font-size: 10px;
+        padding: 5px 13px 7px 16px;
+        width: 82px;
+    }
+
+    .green-btn {
+        right: 76px;
+        bottom: 6px;
+    }
+
+    .heart-price {
+        width: 19px;
+        height: 19px;
+        margin-left: 47px;
+        margin-bottom: 14px;
+    }
+
+    .phone-price {
+        display: block;
+        height: 373px;
+        background-color: #fff;
+    }
+
+    .phone-text-logo {
+        padding: 0;
+        margin-left: 80px;
+        height: 125px;
+    }
+
+    .item-code {
+        display: block;
+        font-size: 15.6px;
+        width: 90px;
+    }
+
+    .upper {
+        height: 40px;
+        border-bottom: none;
+        padding-top: 23px;
+    }
+
+    .numbers-price {
+        margin-top: 32px;
+    }
+
+    .quantity {
+        margin-top: 25px;
+    }
+
+    .orange-btn button {
+        padding: 14.5px 35px 16.4px 35px;
+        font-size: 16px;
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .blue-btn button {
+        margin-bottom: 17.4px;
+        padding: 14.6px 50.81px 16.42px 50.81px;
+        font-size: 16px;
+    }
+
+    .btns {
+        padding-left: 16px;
+    }
+
+    .main-info dl dt span {
+        font-size: 12px;
+    }
+
+    .main-info {
+        width: 290px;
+        height: 287px;
+        padding: 0 15px;
+        margin-top: 51px;
+    }
+
+    .main-info dl dd {
+        font-size: 12px;
+    }
+
+    .main-info h3 {
+        margin-top: 0;
+        margin-bottom: 16.8px;
+        font-size: 18px;
+    }
+
+    .delivery {
+        margin-left: 0;
+        margin-top: 46px;
+    }
+
+    .del-pay {
+        margin-bottom: 22px;
+        font-size: 18px;
+    }
+
+    .delivery-text h3 {
+        font-size: 13.96px;
+        margin-top: 7px;
+    }
+
+    .delivery-text p {
+        font-size: 12.57px;
+    }
+
+    .delivery-text {
+        margin-left: 14px;
+    }
+
+    .upper-footer {
+        display: block;
+        padding-top: 0;
+        padding-left: 0;
+        height: 935px;
+    }
+
+    .contacts {
+        margin-left: 0;
+    }
+
+    .shedule {
+        margin-right: 0;
+    }
+
+    .logo-footer-mob img {
+        margin-top: 60px;
+        padding-left: 81px;
+        margin-bottom: 48px;
+    }
+
+    .phone-num {
+        font-size: 16px;
+    }
+
+    .days-time span {
+        font-size: 16px;
+    }
+
+    .contacts {
+        margin-bottom: 79px;
+    }
+
+    .lower-footer {
+        padding: 0;
+    }
+
+    .shedule,
+    .address {
+        background-color: #2C2C35;
+        padding-left: 15px;
+    }
+
+    .contacts {
+        padding-left: 15px;
+    }
+
+    .main-office span {
+        font-size: 16px;
+    }
+
+    .upper-line-contacts {
+        margin-bottom: 23px;
+    }
+
+    .upper-line-shedule {
+        margin-bottom: 26px;
+    }
+
+    .upper-line-address {
+        margin-bottom: 22px;
+        margin-top: 0;
+    }
+
+    .address {
+        padding-top: 79px;
+        padding-bottom: 159px;
+    }
+
+
+    .signs-footer-mob {
+        background-color: #2C2C35;
+        padding-left: 62px;
+        padding-right: 62px;
+        padding-bottom: 63px;
+        width: 320px;
+        box-sizing: border-box;
+    }
+
+    .signs-footer-mob img {
+        margin-right: 16px;
+    }
+
+    .signs-footer-mob img:last-child {
+        margin-right: 0;
+    }
+
+    .lower-footer-mob {
+        background-color: #2C2C35;
+        padding: 0 100px;
+        box-sizing: border-box;
+        padding-top: 20px;
+    }
+
+    .footer-text {
+        margin-top: 5.58px;
+        font-size: 7.44px;
+        margin-bottom: 29px;
+    }
+
+    .footer-vers {
+        font-size: 10px;
+        text-align: center;
+        padding-bottom: 27px;
+    }
+
+    .header-mob,
+    .header-search-mob {
+        background-color: #F3F6F9;
+        display: flex;
+        height: 65px;
+        align-items: center;
+    }
+
+    .heart-wrap-mob {
+        border-bottom: 1px solid #DBDCDE;
+        width: 290px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        margin-left: 15px;
+    }
+
+    .heart-num-mob {
+        font-size: 6.67px;
+        position: relative;
+        right: 10px;
+        bottom: 14px;
+        color: #fff;
+    }
+
+    .heart-text-mob {
+        font-weight: 400;
+        margin-left: 11px;
+    }
+
+    .ellipse-img-mob {
+        left: 25px;
+        position: relative;
+        left: 28px;
+        bottom: 9px;
+    }
+
+    .nav-mob {
+        display: block;
+        width: 320px;
+        padding: 26px 130px 26px 26px;
+        height: 175px;
+        margin-left: 15px;
+    }
+
+    .nav-mob ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-mob ul li {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .nav-mob ul li a {
+        color: #212121
+    }
+
+    .upper-line-contacts-mob {
+        margin-bottom: 16px;
+        color: #5B819A;
+        font-size: 12px;
+        font-weight: 400;
+    }
+
+    .phone-num-mob {
+        color: #2C2C35;
+        font-size: 20px;
+        margin-bottom: 14px;
+    }
+
+    .contacts-mob {
+        padding-left: 57px;
+        box-sizing: border-box;
+        border-top: 1px solid #DBDCDE;
+        width: 290px;
+        margin-left: 15px;
+    }
+
+    .upper-line-contacts-mob {
+        margin-top: 19px;
+    }
+
+    .lang-mob {
+        text-align: center;
+        margin-top: 49px;
+        margin-bottom: 45px;
+    }
+
+    .lang-mob a:first-child {
+        margin-right: 23px;
+        color: #5B819A;
+        font-weight: 600;
+    }
+
+    .lang-mob a:last-child {
+        color: #DBDCDE;
+        font-weight: 500;
+    }
+
+    .search-mob-ver-1 a img {
+        margin-right: 27px;
+    }
+
+
+
+    .input-field-mob input {
+        width: 273px;
+        font-size: 16px;
+        height: 50px;
+        margin-top: 57px;
+        margin-bottom: 70px;
+        border: 1px solid #2C2C35;
+        border-radius: 60px;
+        font-weight: 400;
+        position: absolute;
+        padding-left: 35px;
+
+        box-sizing: border-box;
+
+    }
+
+    .search-btn-mob {
+        height: 48px;
+        width: 48px;
+        position: relative;
+        bottom: -58px;
+        border-radius: 60%;
+        border: none;
+        left: 224px;
+        background-color: #F3F6F9;
+        border-color: #2C2C35;
+        cursor: pointer;
+    }
+
+    .input-field-mob {
+        padding-left: 24px;
+        padding-left: 23px;
+        box-sizing: border-box;
+        width: 320px;
+    }
+
+    .contacts-mob-search {
+        padding-left: 40px;
+        box-sizing: border-box;
+        margin-top: 120px;
+        width: 290px;
+        margin-left: 15px;
+    }
+
+    .upper-line-contacts-mob-1 {
+        text-align: center;
+        padding-right: 53px;
+    }
+
+    .signs-footer-mob-search {
+        background-color: #fff;
+        margin-top: 73px;
+        margin-bottom: 118px;
+        text-align: center;
+    }
+
+    .signs-footer-mob-search img {
+        margin-right: 18px;
+    }
+
+    .signs-footer-mob-search img:last-child {
+        margin-right: 0;
+    }
+}
